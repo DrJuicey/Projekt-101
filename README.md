@@ -14,4 +14,28 @@ Ziel des Projekts ist es, ein Convolutional Neural Network (CNN) zu entwickeln, 
 
 - Joen Berisha
 
-## 
+## Projektstruktur
+
+- src/ → Code für Modelle und Training des CNN
+  
+- notebooks/ → Experimente und Analyse (MNIST-Datensatz untersuchen, Modelle testen, Ergebnisse visualisieren.)
+  
+- results/ → Ergebnisse und Auswertung der Experimente (Diagramme)
+  
+- data/ → Datenspeicher des MNIST-Datensatz über torchvision
+
+## Installation
+
+Alle benötigten Python-Pakete können mit folgendem Befehl installiert werden:
+
+pip install -r requirements.txt
+
+## Nutzung
+
+Das Training des Modells kann mit folgendem Befehl gestartet werden:
+
+python src/train.py
+
+## Datensatz
+
+Der MNIST-Datensatz wird automatisch über torchvision heruntergeladen und lokal im data-Ordner gespeichert.
