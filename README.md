@@ -1,2 +1,4 @@
 # Projekt-101
-CNN für den MNIST-Datensatz 
+Projekt Beschreibnung:
+
+In diesem Projekt befassen wir uns  MNIST-Datensatz zur Handschriftenerkennung von Ziffern
