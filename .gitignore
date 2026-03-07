@@ -18,3 +18,12 @@ __pycache__/
 # Virtual environments
 venv/
 .env/
+
+# Machine Learning
+data/
+*.pt
+*.pth
+
+# Mac / Windows system files
+.DS_Store
+Thumbs.db
